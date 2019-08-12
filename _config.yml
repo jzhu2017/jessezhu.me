@@ -16,15 +16,15 @@
 title: Jesse Zhu
 email: jz626@cornell.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my website! I'm Jesse and there's a lot I've done - feel free to 
-  check them out, you're already here :). Get to know more about me and send me
-  and email for any inquiries! 
+  Welcome! I'm Jesse - coder, photographer, culture lover.
+  Get to know more about me - you're already here :) 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jessezhu.me" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: jesse-zhu
 github_username:  jzhu2017
 instagram_username: thejbz
 facebook_username: jesseboyuzhu
+remote_theme       : YoussefRaafatNasry/portfolYOU # uncomment this if you are using it as a remote theme
 
 # Build settings
 sass:
@@ -40,11 +40,43 @@ plugins:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+
+### Author Info ###
+author:
+  name              : Jesse Zhu
+  image             : "profilepic.JPG"
+  email             : jz626@cornell.edu
+  facebook          : jesseboyuzhu
+  github            : jzhu2017
+  instagram         : thejbz
+  linkedin          : jesse-zhu
+
+### Pagination ###
+paginate: 6
+paginate_path: "/articles/page-:num/"
+
+### Posts Permalink ###
+permalink: articles/:title
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"

@@ -1,0 +1,27 @@
+- name: Java
+  percentage: 100
+  color: danger
+
+- name: Python
+  percentage: 80
+  color:
+
+- name: HTML/CSS
+  percentage: 70
+  color: dark
+
+- name: JavaScript
+  percentage: 70
+  color: danger
+
+- name: OCaml
+  percentage: 60
+  color: 
+
+- name: SQL
+  percentage: 50
+  color: dark
+
+- name: C#
+  percentage: 40
+  color: danger
