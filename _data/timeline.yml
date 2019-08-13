@@ -1,7 +1,10 @@
 - title: Student, Cornell CS
   from: August 2017
   to: May 2021
-  description: 
+  description: Currently an algorithms TA and a former engineering statistics TA and discrete structures head TA.
+               I'm also involved in The Wardrobe, Thread Magazine, and Global Network. Up until December 2018, I was also 
+               a part of the Cornell Cup Robotics team. In addition, I'm a campus brand ambassador for Kaplan and 
+               Education First.
 
 - title: Software Engineer Intern, National Institute of Standards and Technology
   from: May 2019
@@ -16,4 +19,4 @@
   to: August 2018
   description: Researched the ability of lightfield cameras to capture accurate 3D images needed for forensics, in particular, 
                to capture the details necessary for footprint extraction. The depth ability was compared with current
-               foorprint extraction methods, and standards were created for such a task.
+               foorprint extraction methods, and standards were created for such a task. See more in the "Projects" section.
