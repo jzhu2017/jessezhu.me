@@ -6,17 +6,14 @@
 - title: Software Engineer Intern, National Institute of Standards and Technology
   from: May 2019
   to: August 2019
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: Designed and built a user interface to run the Parmenides library which implements the Root and Rule extraction
+               of natural language texts. This supports HTML, XML, TXT, Database, and CSV input. In addition, the display of the
+               GUI is controlled by CSV files that the user can change and customize. Taxonomy and ontology visualizations
+               were also developed. See more in the "Projects" section.
 
 - title: Research Intern, National Institute of Standards and Technology
   from: May 2018
   to: August 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: Researched the ability of lightfield cameras to capture accurate 3D images needed for forensics, in particular, 
+               to capture the details necessary for footprint extraction. The depth ability was compared with current
+               foorprint extraction methods, and standards were created for such a task.
